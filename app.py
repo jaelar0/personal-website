@@ -23,8 +23,7 @@ app.layout = html.Div(
             html.Div(className="icons", children=[
                 html.A(
                     html.Img(src="https://img.icons8.com/ios-filled/50/ffffff/github.png", className="icon")
-                    , href="https://github.com/jaelar0/personal-site"),
-                # html.Img(src="https://img.icons8.com/ios-filled/50/ffffff/github.png", className="icon")
+                    , href="https://github.com/jaelar0/personal-website")
             ])
         ]),
        dash.page_container
