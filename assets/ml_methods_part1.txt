@@ -1,0 +1,11 @@
+The dataset was sourced from the data science website Kaggle, and although the exact source is unknown, the admins 
+rated it as 'gold' for its usability. 
+The first step of pre-processing was to profile the borrowers into a 'good' group and a 'bad' group. 
+This step entailed typical data scrubbing activities such as assigning loans to borrowers, calculating the loan start 
+and end dates, calculating loan term and months on the book, as well as other calculations necessary for our analysis. 
+Much easier said than done, but the actions taken lead us into our 
+definition of a 'bad' borrower. If following along in the code, we can see that when a loan status 
+is equal to either '2', '3', '4', or '5', we are setting that borrower as 'bad'. In other words, if a loan payment 
+is more than 60 days overdue, we are classifying that borrower as 'bad'. The end result is a cleaned dataframe, 
+named all_data in the code, that houses 
+all the necessary fields to create our features and target variables.

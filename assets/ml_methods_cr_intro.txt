@@ -1,0 +1,4 @@
+The goal of this project is to showcase machine learning methods for developing a loan approval system. 
+This was a final project for my grad school course on Machine Learning in the spring semester of 2024.
+Below you will see a summary of the process that went into building such a project. 
+I recommend reviewing this page and the code simultaneously to get a better understanding.
