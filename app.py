@@ -2,7 +2,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import html
 
-app = dash.Dash(__name__, use_pages=True, suppress_callback_exceptions=False)
+app = dash.Dash(__name__, use_pages=True, suppress_callback_exceptions=False, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 app.layout = html.Div(
@@ -17,8 +17,9 @@ app.layout = html.Div(
             ], className="subtitle"),
             html.Nav(className="nav", children=[
                 html.A("Home", href="/"),
-                html.A("Dashboard Project", href="/nba-dash"),
+                html.A("Analytics Project", href="/nba-dash"),
                 html.A("ML Project", href="/ml-project"),
+                html.A("TUI Project", href="/tui-project")
             ]),
             html.Div(className="icons", children=[
                 html.A(
